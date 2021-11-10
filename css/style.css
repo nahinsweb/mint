@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+
+body{
+    background: url(../images/background.png) ;
+}
+.title h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+/* ---------------------------Navber part Start--------------------- */
+.navbar-nav .nav-link{
+    padding-right: 0;
+    padding-left: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+#navbar-part{
+    margin-bottom: 50px;
+}
+
+/* ---------------------------Navber part end--------------------- */
+
+/* ---------------------------Header part Start--------------------- */
+#header-part{
+    margin-bottom: 80px;
+}
+#header-part .left-side h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 80px;
+    margin-top: 30px;
+
+}
+#header-part .left-side p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 40px;
+    line-height: 30px;
+}
+#header-part .left-side .btn{
+    margin-top: 40px;
+}
+.btn-primary {
+    color: black;
+    background-color: #ffe100;
+    border-color: #0d6efd00;
+    padding: 10px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ffe100;
+    border-color: #0a58ca00;
+}
+/* ---------------------------Header part end--------------------- */
+
+/* ---------------------------protfolio part start--------------------- */
+#protfolio-part .title-text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+#protfolio-part .left-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+    display: block;
+    padding: .5rem 1rem;
+    color: black;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-tabs {
+    border-bottom: 1px solid #dee2e600;
+}
+#protfolio-part .left-nav .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #ffe100 #ffe100 #ffe100;
+    isolation: isolate;
+    background: #ffe100;
+}
+#protfolio-part .right-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    padding: .5rem 0rem;
+    color: black;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+#protfolio-part .nav-nab{
+    margin-bottom: 30px;
+}
+#protfolio-part .portfolio{
+    text-align: center;
+}
+#protfolio-part .portfolio .item .pic img{
+    width: 100%;
+}
+#protfolio-part .portfolio .item .pic{
+    margin-top: 25px;
+    position: relative;
+}
+#protfolio-part .portfolio .item .pic .overlay{
+    height: 0%;
+    width: 100%;
+    background: #ffe100;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: .4s;
+    cursor: pointer;
+}
+#protfolio-part .portfolio .item .pic:hover .overlay{
+    opacity: 1;
+    height: 100%;
+}
+#protfolio-part .portfolio .item .pic .overlay .overlay-text{
+    font-family: 'Montserrat', sans-serif;
+    top: 45%;
+    left: 30%;
+    position: absolute;
+}
+#protfolio-part .portfolio .item .pic .overlay .overlay-text{
+}
+#protfolio-part .portfolio .item .pic .overlay .overlay-text h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+#protfolio-part .portfolio .item .pic .overlay .overlay-text h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#protfolio-part .portfolio .btn-light {
+    color: #000;
+    background-color: #ffe100;
+    border-color: #f8f9fa00;
+    text-align: center;
+    margin: 100px 0;
+    border-radius: .0rem;
+    padding: 10px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+/* ---------------------------protfolio part end--------------------- */
+
+/* ---------------------------Partners part start--------------------- */
+
+#partner-part{
+    background: #EDF2F6;
+    opacity: .4;
+    margin-bottom: 100px;
+    
+}
+
+#partner-part .partner-item{
+    padding: 50px 0 30px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* ---------------------------Partners part end--------------------- */
+
+/* ---------------------------About part Start--------------------- */
+#about-part{
+    margin-bottom: 50px;
+}
+#about-part .about-item .item .pic{
+    position: relative;
+}
+
+#about-part .about-item .item .pic .text{
+    width: 60%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    cursor: pointer;
+}
+#about-part .about-item .item .pic .text:hover{
+    background:#ffe100 ;
+}
+#about-part .about-item .item .pic .text img{
+    width: 100%;
+}
+#about-part .about-item .item .pic .text h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#about-part .about-item .item .pic .text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#about-part .about-item .item .pic .text1{
+    left: 0;
+    bottom: 20%;
+    position: absolute;
+    
+}
+#about-part .about-item .item .pic .text1 h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+#about-part .about-item .item .pic .text1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+#about-part .about-item .item .pic .text1 .btn{
+    display: block;
+}
+#about-part .about-item .item .pic .text1 .btn-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+}
+#about-part .about-item .item .pic .text1 .btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+/* ---------------------------About part end--------------------- */
